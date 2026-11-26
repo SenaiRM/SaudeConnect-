@@ -1,11 +1,37 @@
+# SaúdeConnect+
 
-  # Recriar app enviado
+O SaúdeConnect+ é uma plataforma de demonstração para conectar pacientes e unidades de saúde. O app permite encontrar instituições, solicitar consultas e exames, acompanhar agendamentos e receber avisos. A secretaria dispõe de um painel para consultar a agenda da unidade e confirmar solicitações.
 
-  This is a code bundle for Recriar app enviado. The original project is available at https://www.figma.com/design/mqZkYvq7yNpYmwX1yPIJ8z/Recriar-app-enviado.
+## Acesse o site
 
-  ## Running the code
+[saudeconnect.vercel.app](https://saudeconnect.vercel.app)
 
-  Run `npm i` to install the dependencies.
+## Funcionalidades
 
-  Run `npm run dev` to start the development server.
-  
+- Busca de instituições e profissionais por localidade e serviço.
+- Agendamento de consultas e exames conforme a disponibilidade.
+- Solicitação de reagendamento, cancelamento e histórico de atendimentos.
+- Avisos para pacientes e secretaria sobre mudanças nos agendamentos.
+- Modo Fácil e interface adaptada para celular e desktop.
+
+> Este projeto usa dados de demonstração. Os fluxos de acesso e agendamento não representam um serviço de saúde em produção.
+
+## Executar localmente
+
+Requisitos: Node.js e npm.
+
+```bash
+npm install
+npm run dev
+```
+
+Abra no navegador o endereço informado pelo Vite (normalmente `http://localhost:5173`). Na tela inicial, escolha o acesso de paciente ou secretaria para explorar a demonstração.
+
+## Verificações
+
+```bash
+npm test
+npm run build
+```
+
+O projeto foi desenvolvido com React, TypeScript, Vite e Tailwind CSS.
