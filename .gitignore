@@ -1,0 +1,11 @@
+.vercel
+node_modules
+dist
+.env
+.env.*
+!.env.example
+*.log
+.superpowers/
+.claude/
+Aula*.pdf
+pnpm-lock.yaml
